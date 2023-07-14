@@ -2,8 +2,7 @@
 # Code challenge for Android position at Baubap</b>
 
 # Patron de Diseno usado  
-Modelo Vista Vista Modelo
-
+MVVM
 
 # Librerias Externas Usadas  
 Mockito    
