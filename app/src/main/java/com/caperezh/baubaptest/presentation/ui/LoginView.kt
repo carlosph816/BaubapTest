@@ -54,13 +54,13 @@ fun LoginView(
                 if (viewModel.showDialog) {
                     AlertDialog(
                         onDismissRequest = { viewModel.showDialog},
-                        title = { Text("Baubap") },
-                        text = { Text("Se ha logueado correctamente.") },
+                        title = { Text(stringResource(R.string.baubap)) },
+                        text = { Text(stringResource(R.string.se_ha_logueado_correctamente)) },
                         confirmButton = {
                             Button(
                                 onClick = { viewModel.dismissDialog()}
                             ) {
-                                Text("Aceptar")
+                                Text(stringResource(R.string.aceptar))
                             }
                         }
                     )
@@ -108,13 +108,13 @@ fun LoginContent(
 
         Spacer(modifier = Modifier.height(20.dp))
         TextField(
-            label = { Text(text = "Username") },
+            label = { Text(text = stringResource(R.string.username)) },
             value = username.value,
             onValueChange = { username.value = it })
 
         Spacer(modifier = Modifier.height(20.dp))
         TextField(
-            label = { Text(text = "Password") },
+            label = { Text(text = stringResource(R.string.password)) },
             value = password.value,
             visualTransformation = PasswordVisualTransformation(),
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
@@ -129,7 +129,7 @@ fun LoginContent(
                     .fillMaxWidth()
                     .height(50.dp)
             ) {
-                Text(text = "Login")
+                Text(text = stringResource(R.string.login))
             }
         }
 
