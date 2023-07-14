@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BaubapTest</string>
+    <string name="error_service">Error in obtaining the information.</string>
+    <string name="logo_baubap">Logo Baubap</string>
+</resources>
