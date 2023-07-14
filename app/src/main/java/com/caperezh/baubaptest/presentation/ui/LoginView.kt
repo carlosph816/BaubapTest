@@ -35,8 +35,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.caperezh.baubaptest.R
-import com.caperezh.baubaptest.presentation.viewmodel.LoginState
-import com.caperezh.baubaptest.presentation.viewmodel.LoginViewModel
 
 @Composable
 fun LoginView(
